@@ -30,17 +30,21 @@ const HomeInfo = ({ currentStage }) => {
 
   if (currentStage === 3) {
     return (
-      <div className='info-box'>
-        <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+      <div className="info-box">
+        <p className="font-medium text-center sm:text-xl">
+          Led multiple projects to success over the years. <br /> Curious about
+          the impact?
         </p>
 
-        <Link to='/projects' className='neo-brutalism-white neo-btn'>
+        <Link
+          to="https://erickdev.netlify.app/"
+          className="neo-brutalism-white neo-btn"
+        >
           Visit my portfolio
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
-    );
+    )
   }
 
   if (currentStage === 4) {

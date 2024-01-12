@@ -111,7 +111,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Front-end Engineer",
+    title: "Software Developer",
     company_name: "Kaiber",
     icon: kaiber,
     iconBg: "#000",
@@ -124,7 +124,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Front-end Engineer",
+    title: "Software Developer",
     company_name: "Pixelbot",
     icon: pixelbot,
     iconBg: "#fbc3bc",
@@ -137,7 +137,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Front-end Engineer",
+    title: "Software Developer",
     company_name: "Mullenlowe",
     icon: mullenLowe,
     iconBg: "#b7e4c7",
@@ -155,7 +155,7 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/contact",
+    link: "https://erickdev.netlify.app/",
   },
   {
     name: "GitHub",

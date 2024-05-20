@@ -115,7 +115,7 @@ export const experiences = [
     company_name: "Kaiber",
     icon: kaiber,
     iconBg: "#000",
-    date: "July 2023 - Present",
+    date: "June 2023 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,7 +141,7 @@ export const experiences = [
     company_name: "Mullenlowe",
     icon: mullenLowe,
     iconBg: "#b7e4c7",
-    date: "January 2021 - July 2021",
+    date: "November 2020 - July 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

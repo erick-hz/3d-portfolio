@@ -1,4 +1,4 @@
-import { meta, mullenLowe, kaiber, pixelbot } from "../assets/images"
+import { meta, techMahindra, kaiber, pixelbot } from "../assets/images"
 import {
     car,
     contact,
@@ -112,6 +112,20 @@ export const skills = [
 export const experiences = [
   {
     title: "Software Developer",
+    company_name: "Tech Mahindra (Scotiabank)",
+    icon: techMahindra,
+    iconBg: "#ed0722",
+    date: "July 2024 - Present",
+    points: [
+      "Development and maintenance of components using React JS and Redux Toolkit.",
+      "Integration and communication with APIs, leveraging Redux for state management.",
+      "Collaborating with cross-functional teams, including designers, product managers, and other developers, to create high-quality microservice-based front-end products.",
+      "Implementing responsive design and ensuring cross-browser compatibility for microservices.",
+      "Participating in code reviews and providing constructive feedback to other developers, ensuring adherence to best practices."
+    ],
+  },
+  {
+    title: "Software Developer",
     company_name: "Kaiber",
     icon: kaiber,
     iconBg: "#000",
@@ -128,27 +142,14 @@ export const experiences = [
     company_name: "Pixelbot",
     icon: pixelbot,
     iconBg: "#fbc3bc",
-    date: "July 2021 - Present",
+    date: "July 2021 - July 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Mullenlowe",
-    icon: mullenLowe,
-    iconBg: "#b7e4c7",
-    date: "November 2020 - July 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ]
 
 export const socialLinks = [
@@ -173,10 +174,25 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
+    name: "Scotiabank",
+    description:
+      "Scotiabank uses a modern architecture with backend and frontend microservices in React and Redux Toolkit, hosted on cloud platforms like GCP, Azure, and AWS. This setup enables scalable, independent application development and supports agile practices for efficient operations.",
+    link: "https://www.scotiabank.com/ca/en/personal.html",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
     name: "Kaiber",
     description:
-      "Bring your dreams to life Tell stories like never before with our advanced AI generation engine.",
+      " Kaiber's website uses React and Redux specifically. Kaiber's platform is focused on AI-enhanced creative tools, such as their Superstudio product, which integrates AI models for generating and manipulating multimedia content. ",
     link: "https://kaiber.ai/",
+  },
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "Kaiber App",
+    description: "AI Art Lab: Artist-Built",
+    link: "https://apps.apple.com/us/app/kaiber/id6458980808",
   },
   {
     iconUrl: threads,
@@ -186,26 +202,11 @@ export const projects = [
     link: "https://erickdev.netlify.app/",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "lavish",
-    description:
-      "Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged any fees",
-    link: "https://lavish-bx.web.app/",
-  },
-  {
     iconUrl: snapgram,
     theme: "btn-back-pink",
     name: "Marble Slab Canada",
     description:
       "Get your favourite treats with the NEW MARBLE SLAB mobile ordering app.",
     link: "https://apps.apple.com/us/app/marble-slab-canada/id1599580387",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Kaiber App",
-    description: "AI Art Lab: Artist-Built",
-    link: "https://apps.apple.com/us/app/kaiber/id6458980808",
   }
 ]

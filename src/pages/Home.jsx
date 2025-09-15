@@ -1,14 +1,14 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
-import sakura from "../assets/sakura.mp3";
+import soundtrack from "../assets/ryū.wav";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
 
 const Home = () => {
-  const audioRef = useRef(new Audio(sakura));
-  audioRef.current.volume = 0.4;
+  const audioRef = useRef(new Audio(soundtrack));
+  audioRef.current.volume = 1;
   audioRef.current.loop = true;
 
   const [currentStage, setCurrentStage] = useState(1);

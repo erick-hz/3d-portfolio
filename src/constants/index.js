@@ -1,140 +1,139 @@
-import { meta, techMahindra, kaiber, pixelbot } from "../assets/images"
+import { techMahindra, pixelbot, hexaware } from "../assets/images";
 import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
 ];
 
 export const experiences = [
+  {
+    title: "Front-end Engineer",
+    company_name: "Hexaware",
+    icon: hexaware,
+    iconBg: "#3b2dda",
+    date: "July 2025 - Present",
+    points: [
+      "Building and Maintaining Reusable UI Components with React JS.",
+      "State Management and Data Flow Implementation using Redux Toolkit.",
+      "API Integration and Data Handling with React and Redux.",
+      "Unit Testing and Performance Optimization using Jest and React Testing Library.",
+    ],
+  },
   {
     title: "Software Developer",
     company_name: "Tech Mahindra (Scotiabank)",
     icon: techMahindra,
     iconBg: "#ed0722",
-    date: "July 2024 - Present",
+    date: "Jun 2024 - Jun 2025",
     points: [
       "Development and maintenance of components using React JS and Redux Toolkit.",
       "Integration and communication with APIs, leveraging Redux for state management.",
       "Collaborating with cross-functional teams, including designers, product managers, and other developers, to create high-quality microservice-based front-end products.",
       "Implementing responsive design and ensuring cross-browser compatibility for microservices.",
-      "Participating in code reviews and providing constructive feedback to other developers, ensuring adherence to best practices."
-    ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Kaiber",
-    icon: kaiber,
-    iconBg: "#000",
-    date: "June 2023 - May 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other developers, ensuring adherence to best practices.",
     ],
   },
   {
@@ -142,15 +141,15 @@ export const experiences = [
     company_name: "Pixelbot",
     icon: pixelbot,
     iconBg: "#fbc3bc",
-    date: "July 2021 - July 2024",
+    date: "July 2021 - Jun 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  }
-]
+  },
+];
 
 export const socialLinks = [
   {
@@ -168,7 +167,7 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/erick-hernandez-93361618b/",
   },
-]
+];
 
 export const projects = [
   {
@@ -208,5 +207,5 @@ export const projects = [
     description:
       "Get your favourite treats with the NEW MARBLE SLAB mobile ordering app.",
     link: "https://apps.apple.com/us/app/marble-slab-canada/id1599580387",
-  }
-]
+  },
+];
